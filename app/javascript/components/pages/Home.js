@@ -1,6 +1,7 @@
-import React from "react"
 
-class Home extends React.Component {
+import React, {Component} from 'react'
+
+class Home extends Component {
   render() {
     return(
       <h3>This is the Home Page</h3>
