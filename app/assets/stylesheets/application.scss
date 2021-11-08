@@ -1,1 +1,46 @@
 @import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto&display=swap');
+
+// HEADER
+header {
+    background-color: #faf2e9;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: 'Montserrat';
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-right: 50px;
+    color: #062424;
+
+}
+.aptlogo{
+    width: 150px;
+    margin-left: 20px;
+    
+}
+
+// Footer
+footer {
+    background-color: #faf2e9;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+ }
