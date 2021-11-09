@@ -16,6 +16,8 @@ header {
     display: flex;
     align-items: flex-end;
     padding-bottom: 10px;
+    margin: 0 auto;
+    
 }
 
 .nav-link{
@@ -25,11 +27,28 @@ header {
     padding-right: 50px;
     color: #062424;
 
+    
+
 }
 .aptlogo{
     width: 150px;
     margin-left: 20px;
     
+}
+
+.page-body {
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Montserrat';
+}
+
+
+// HOME
+
+.apartments {
+    width: 100vw;
+    margin-top: 200px;
+    opacity: 0.2;
 }
 
 // Footer
@@ -38,9 +57,14 @@ footer {
     font-family: 'Montserrat';
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     width: 100%;
     bottom: 0;
 
  }
+
+ footer .nav-bar{
+     padding-top: 12px;
+     padding-bottom: 2px;
+ }
+

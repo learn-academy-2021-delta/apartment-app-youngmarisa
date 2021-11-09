@@ -15,10 +15,6 @@ class Footer extends Component {
                  <ul>
                     <NavLink to="/apartmentindex" className='nav-link'>Browse Listings</NavLink>
                 </ul>
-
-                <ul>
-                    <NavLink to='/users/sign_up' className='nav-link'>Sign Up</NavLink>
-                </ul>
              
             </div>
         </footer>

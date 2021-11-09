@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import ApartmentIndex from './pages/ApartmentIndex'
+import ApartmentNew from './pages/ApartmentNew'
+import ApartmentEdit from './pages/ApartmentEdit'
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,6 +26,9 @@ class App extends Component {
         <Routes>
           <Route exact path = "/" element={<Home />}/>
           <Route path = "/apartmentindex" element={<ApartmentIndex />}/>
+          <Route path = "/apartmentnew" element={<ApartmentNew />}/>
+          <Route path = "/myapartments" element={<ApartmentEdit />}/>
+
         </Routes>  
         <Footer {...this.props}/>
       </Router>
