@@ -20,16 +20,26 @@ class Header extends Component {
                 <ul>
                     <NavLink to="/apartmentindex" className='nav-link'>Browse Listings</NavLink>
                 </ul>
-                <ul>
-                    {logged_in &&
-                    <NavLink to="/apartmentnew" className='nav-link'>New Listing</NavLink>
-                    }
-                </ul>
-                <ul>
-                    {logged_in &&
-                    <NavLink to="/myapartments" className='nav-link'>My Listings</NavLink>
-                    }
-                </ul>
+
+                {!logged_in &&
+                    <ul>
+                        <a href={new_user_route} className ='nav-link'>Sign Up</a>
+                    </ul>
+                }
+                
+                
+                {logged_in &&
+                    <ul>
+                        <NavLink to="/apartmentnew" className='nav-link'>New Listing</NavLink>
+                    </ul>
+                }
+                
+                
+                {logged_in &&
+                    <ul>
+                        <NavLink to="/myapartments" className='nav-link'>My Listings</NavLink>
+                    </ul>
+                }
                 <ul>
                     {logged_in && 
                         <a href={sign_out_route} className ='nav-link'>Sign Out</a>
@@ -38,6 +48,8 @@ class Header extends Component {
                         <a href={sign_in_route} className ='nav-link'>Sign In</a>
                     }
                 </ul>
+                
+
             </div>
         </header>
     )

@@ -1,10 +1,13 @@
 
 import React, {Component} from 'react'
+import apartments from '../assets/apartments.jpg'
 
 class Home extends Component {
   render() {
     return(
-      <h3>This is the Home Page</h3>
+      <>
+      <img src={apartments} alt='colored apartments' className='apartments'/>
+      </>
     )
   }
 }
