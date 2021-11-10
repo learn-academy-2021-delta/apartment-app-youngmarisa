@@ -30,7 +30,7 @@ header {
     
 
 }
-.aptlogo{
+.logo{
     width: 150px;
     margin-left: 20px;
     
@@ -67,4 +67,29 @@ footer {
      padding-top: 12px;
      padding-bottom: 2px;
  }
+
+//  INDEX
+.card {
+    border: 3px solid #faf2e9;
+    padding: 35 px;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-icon{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #e16435;
+}
+
+a{
+    color: #062424;
+    text-align: center;
+    
+}
 

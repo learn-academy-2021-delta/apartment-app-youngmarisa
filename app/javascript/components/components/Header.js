@@ -1,12 +1,11 @@
 import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
-import aptlogo from '../assets/aptlogo.png'
+import logo from '../assets/aptlogo.png'
 
 class Header extends Component {
   render() {
       const {
           logged_in,
-          current_user,
           new_user_route,
           sign_in_route,
           sign_out_route
@@ -14,7 +13,7 @@ class Header extends Component {
     return(
         <header>
             <NavLink to = "/">
-                <img src={aptlogo} alt="apartment app logo" className="aptlogo"/>
+                <img src={logo} alt="apartment app logo" className="logo"/>
                 </NavLink>
             <div className = "nav-bar">
                 <ul>
